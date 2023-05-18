@@ -2,7 +2,6 @@ import Image from 'next/image'
 import Layout from '../../components/Layout'
 import { formatearFecha } from '../../utils/helpers'
 import styles from '../../styles/blog.module.css'
-import { formatearFecha } from '@/utils/helpers'
 
 export default function Post({post}) {
   const { titulo, contenido, imagen, publishedAt } = post[0].attributes  
